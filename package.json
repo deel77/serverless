@@ -1,11 +1,10 @@
 {
-  "name": "serverless",
-  "version": "3.40.0",
-  "description": "Serverless Framework - Build web, mobile and IoT applications with serverless architectures using AWS Lambda, Azure Functions, Google CloudFunctions & more",
+  "name": "sls3-legacy",
+  "version": "3.41.0",
+  "description": "SLS3 Legacy - A fork of Serverless Framework v3",
   "preferGlobal": true,
-  "homepage": "https://serverless.com/framework/docs/",
-  "author": "serverless.com",
-  "repository": "serverless/serverless",
+  "author": "Dominik Lakatos",
+  "repository": "deel77/sls3-legacy",
   "keywords": [
     "serverless",
     "lambda",
@@ -18,8 +17,8 @@
   ],
   "main": "lib/serverless.js",
   "bin": {
-    "serverless": "./bin/serverless.js",
-    "sls": "./bin/serverless.js"
+    "sls3-legacy": "./bin/serverless.js",
+    "sls3": "./bin/serverless.js"
   },
   "dependencies": {
     "@aws-sdk/client-api-gateway": "^3.588.0",
