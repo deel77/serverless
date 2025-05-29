@@ -1,6 +1,8 @@
 **SLS3-Legacy** – A fork of Serverless Framework v3 in order to support it a little bit longer.
 
-It is using `sls3` command instead of original `sls` command in order to help separate from original v3 version. Everything else should be same.
+It is using `sls3` command instead of original `sls` command in order to help separate from original v3 version. Everything else should be same, so original plugins should still work.
+
+It was created mostly to avoid AWS deprecation of older nodejs runtimes which are used for custom resources and allow newer runtimes to be used.
 
 <br/>
 

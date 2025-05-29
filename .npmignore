@@ -1,6 +1,8 @@
 /.github
 /.editorconfig
 /.prettierignore
+/.codebuddy
+/.idea
 /CODE_OF_CONDUCT.md
 /commitlint.config.js
 /CONTRIBUTING.md

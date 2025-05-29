@@ -1,6 +1,6 @@
 {
   "name": "sls3-legacy",
-  "version": "3.41.0",
+  "version": "3.41.1",
   "description": "SLS3 Legacy - A fork of Serverless Framework v3",
   "preferGlobal": true,
   "author": "Dominik Lakatos",
@@ -15,10 +15,10 @@
     "apache-open-whisk",
     "iot"
   ],
-  "main": "lib/serverless.js",
+  "main": "lib/sls3-legacy.js",
   "bin": {
-    "sls3-legacy": "./bin/serverless.js",
-    "sls3": "./bin/serverless.js"
+    "sls3-legacy": "./bin/sls3-legacy.js",
+    "sls3": "./bin/sls3-legacy.js"
   },
   "dependencies": {
     "@aws-sdk/client-api-gateway": "^3.588.0",

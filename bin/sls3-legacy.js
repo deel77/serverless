@@ -23,7 +23,7 @@ if (
 ) {
   const serverlessVersion = Number(require('../package.json').version.split('.')[0]);
   process.stderr.write(
-    `\x1b[91mError: Serverless Framework v${serverlessVersion} does not support ` +
+    `\x1b[91mError: SLS3-Legacy v${serverlessVersion} does not support ` +
       `Node.js ${process.version}. Please upgrade Node.js to the latest ` +
       `LTS version (v${minimumSupportedVersionMajor}.${minimumSupportedVersionMinor}.0 is a minimum supported version)\x1b[39m\n`
   );
@@ -45,7 +45,7 @@ if (isMainModule) {
     // Local fallback
     const localServerlessBinPath = (() => {
       try {
-        return require.resolve(path.resolve(localInstallationPath, 'bin/serverless'));
+        return require.resolve(path.resolve(localInstallationPath, 'bin/sls3-legacy'));
       } catch (ignore) {
         // Unrecognized "serverless" installation, continue with this one
         return null;
